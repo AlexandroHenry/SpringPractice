@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="com.alaxhenry.myblog.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.alaxhenry.myblog.MyBlogApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

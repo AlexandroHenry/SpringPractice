@@ -30,9 +30,9 @@ dependencies {
 	runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+	testImplementation("io.mockk:mockk:1.10.4")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
-
 
 kotlin {
 	jvmToolchain(17)  // Kotlin 컴파일러의 JVM 버전을 Java 17으로 설정
