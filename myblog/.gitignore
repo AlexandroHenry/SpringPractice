@@ -5,6 +5,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+.idea/runConfigurations/App.xml
+.idea/gradle.xml
+
 ### STS ###
 .apt_generated
 .classpath
