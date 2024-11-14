@@ -13,7 +13,7 @@ version = "0.0.1-SNAPSHOT"
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)  // Java 17로 설정
+		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
 
@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")  // Thymeleaf 의존성 추가
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
@@ -35,7 +35,7 @@ dependencies {
 }
 
 kotlin {
-	jvmToolchain(17)  // Kotlin 컴파일러의 JVM 버전을 Java 17으로 설정
+	jvmToolchain(17)
 	compilerOptions {
 		freeCompilerArgs.addAll("-Xjsr305=strict")
 	}
@@ -49,7 +49,7 @@ allOpen {
 
 tasks.withType<KotlinCompile> {
 	kotlinOptions {
-		jvmTarget = "17"  // Java 17로 설정
+		jvmTarget = "17"
 	}
 }
 
